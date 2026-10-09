@@ -1,0 +1,72 @@
+@import url('https://googleapis.com');
+@import "tailwindcss";
+
+.abril-fatface {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.neuton {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.branco-principal {
+    color: #ECE2D0
+}
+
+.preto-principal {
+    color: #1d1c1a
+}
+
+.marrom-escuro {
+    color: #764462
+}
+
+.marrom-claro {
+    color: #a96868;
+}
+
+.section-general {
+    margin-bottom: 24px;
+}
+
+.carousel {
+  width: 100vw;
+  height: 300px;
+  padding: 10px;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  white-space: nowrap;
+  text-align: center;
+}
+
+.carousel li {
+  list-style-type: none;
+
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 200px;
+  border: 2px dotted #1d1c1a;
+  margin: 0 10px;
+
+  text-align: left;
+}
+
+.carousel::column {
+  scroll-snap-align: center;
+}
+
+.carousel::column::scroll-marker {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+}

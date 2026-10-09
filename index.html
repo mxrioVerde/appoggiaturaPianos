@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+    </style>
+    <link rel="icon" type="image/icon" href="favicon.png">
+    <title>Appoggiatura Pianos</title>
+  </head>
+  <body class="bg-[url(/img/paper-noise.png)] bg-auto bg-opacity-50">
+    <!-- HEADER -->
+    <section class="flex flex-col items-center">
+        <header class="bg-[#1D1C1A] w-4/5 h-16 fixed mt-3 opacity-95 rounded-full flex flex-row-reverse items-center px-4 gap-4 justify-around md:justify-center lg:gap-12 lg:h-20">
+            <input class="peer" type="checkbox" id="menu" hidden>
+            <label class="" for="menu">
+                <img class="md:hidden" src="img/menu.png" alt="menu">
+            </label>
+            <nav class="hidden peer-checked:block md:flex">
+                <ul class="flex gap-3.5 md:gap-8 lg:gap-16">
+                    <li class="float-right">
+                        <a class="branco-principal abril-fatface lg:text-2xl" href="historia.html" target="_blank">HISTÓRIA</a>
+                    </li>
+                    <li class="float-right">
+                        <a class="branco-principal abril-fatface lg:text-2xl" href="produtos.html" target="_blank">PRODUTOS</a>
+                    </li>
+                    <li class="float-right">
+                        <a class="branco-principal abril-fatface lg:text-2xl" href="contato.html" target="_blank">CONTATO</a>
+                    </li>
+                </ul>
+            </nav>
+            <img class="peer-checked:hidden w-40 py-4" src="img/logo-branco.png" alt="Logo Appoggiatura Pianos">
+        </header>
+    </section>
+
+    <!-- HERO -->
+    <section class="section-general">
+      <div class="bg-[url(/img/piano-lady-shadow.jpg)] w-screen h-screen bg-cover bg-no-repeat flex flex-col items-center justify-center px-4 lg:px-12">
+        <h1 class="abril-fatface branco-principal text-4xl text-justify lg:text-5xl xl:text-6xl">"A música expressa o que não se pode dizer, e o que é impossível de calar."</h1>
+        <h2 class="abril-fatface branco-principal text-2xl text-center underline decoration-1 lg:text-3xl lg:mt-3">~ Claude Debussy</h2>
+      </div>
+    </section>
+
+    <!-- MOTIVAÇÃO -->
+    <section class="section-general">
+        <div class="flex flex-col gap-4">
+            <div class="self-center flex flex-col">
+                <h2 class="neuton text-3xl lg:text-5xl lg:mb-2">Quare Appoggiatura?</h2>
+                <hr class="self-center bg-[#764462] h-1 w-3/4" />
+            </div>
+            <div class="flex flex-col md:grid md:grid-cols-2 md:items-center mb-4">
+                <img class="w-6/7 mx-4 md:mx-2 lg:w-full" src="img/piano-man.png" alt="Homem aflito na frente do piano">
+                <p class="neuton px-2 pr-8 text-justify lg:text-xl xl:text-3xl">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+            <img class="w-screen md:h-68" src="img/piano-broken.jpg" alt="Piano quebrado">
+        </div>
+    </section>
+
+    <!-- APRESENTAÇÃO -->
+    <section class="section-general">
+        <div class="flex flex-col items-center gap-34">
+            <img class="w-screen md:h-40 lg:h-60" src="/img/score-flowing.png" alt="Pauta musical como um rio">
+            <div class="self-center flex flex-col">
+                <h2 class="neuton text-3xl lg:text-5xl lg:mb-2">Quid Est Appoggiatura?</h2>
+                <hr class="self-center bg-[#764462] h-1 w-3/4 mb-6" />
+            </div>
+            <div class="grid grid-cols-2 items-center lg:h-[70vh]">
+                <p class="px-3 text-justify text-sm md:text-xl md:font-medium md:leading-10 lg:px-6 lg:text-3xl lg:leading-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img class="h-full md:w-full lg:h-[70vh] lg:w-3/4 lg:justify-self-end lg:mr-8" src="img/piano-hands-right.png" alt="Pintura a óleo de piano">
+            </div>
+            <img class="w-screen mb-6 md:h-40 lg:h-60" src="/img/score-flowing-inverted.png" alt="Pauta musical como um rio">
+            <div class="flex flex-col items-center">
+                <img class="w-1/2 pl-3 mb-6 lg:h-[70vh] lg:w-[40vw]" src="img/piano-birds.png" alt="Pintura acrílica de piano ao ar livre">
+                <p class="px-3 text-justify md:text-xl md:font-medium md:leading-10 lg:text-2xl lg:px-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="section-general ">
+        <div class="flex flex-col items-center gap-3.5">
+            <div class="self-center flex flex-col">
+                    <h2 class="neuton text-2xl lg:text-5xl">Productus</h2>
+                    <hr class="self-center bg-[#764462] h-1 w-3/4" />
+            </div>
+            <ul class="carousel">
+                <li class="rounded-2xl bg-transparent">
+                    <a class="size-full flex flex-col items-center justify-center gap-4 px-1" href="#">
+                        <img class="rounded-t-2xl" src="img/upright-piano.png" alt="">
+                        <h2 class="abril-fatface preto-principal">PIANO DE PAREDE</h2>
+                    </a>
+                </li>
+                <li class="rounded-2xl bg-transparent">
+                    <a class="size-full flex flex-col items-center justify-center gap-4 px-1" href="#">
+                        <img class="rounded-t-2xl" src="img/grand-piano.png" alt="">
+                        <h2 class="abril-fatface preto-principal">PIANO DE CAUDA</h2>
+                    </a>
+                </li>
+                <li class="rounded-2xl bg-transparent">
+                    <a class="size-full flex flex-col items-center justify-center gap-4 px-1" href="#">
+                        <img class="rounded-t-2xl" src="img/clavichord.png" alt="">
+                        <h2 class="abril-fatface preto-principal">CLAVICÓRDIO</h2>
+                    </a>
+                </li>
+                <li class="rounded-2xl bg-transparent">
+                    <a class="size-full flex flex-col items-center justify-center gap-4 px-1" href="#">
+                        <img class="rounded-t-2xl" src="img/harpsichord.png" alt="">
+                        <h2 class="abril-fatface preto-principal">CRAVO</h2>
+                    </a>
+                </li>
+                <li class="rounded-2xl bg-transparent">
+                    <a class="size-full flex flex-col items-center justify-center gap-4 px-1" href="#">
+                        <img class="rounded-t-2xl" src="img/celesta.png" alt="">
+                        <h2 class="abril-fatface preto-principal">CELESTA</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="">
+        <div class="bg-[url(/img/piano-fire-shadow.jpg)] h-screen bg-cover flex flex-col items-center justify-center px-4 gap-20">
+            <h2 class="abril-fatface branco-principal text-4xl text-justify lg:text-6xl lg:px-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h2>
+            <a class="bg-[#ECE2D0] hover:bg-amber-100 text-center w-1/2 rounded-2xl py-3 abril-fatface text-xl mb-32 lg:text-3xl" href="#">COMPRAR</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="w-screen h-52 bg-[#1D1C1A] flex flex-col items-center p-4">
+        <img class="w-3/5 mt-6 ml-4 md:w-1/3" src="img/logo-branco.png" alt="">
+        <ul class="flex gap-3.5 mt-6">
+                    <li class="float-right">
+                        <a class="branco-principal abril-fatface" href="sociais.html" target="_blank">SOCIAIS</a>
+                    </li>
+                    <li class="float-right">
+                        <a class="branco-principal abril-fatface" href="contato.html" target="_blank">CONTATO</a>
+                    </li>
+                </ul>
+     </footer>
+  </body>
+</html>
