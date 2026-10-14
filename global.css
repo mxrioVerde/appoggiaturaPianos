@@ -1,6 +1,3 @@
-@import url('https://googleapis.com');
-@import "tailwindcss";
-
 .abril-fatface {
   font-family: "Abril Fatface", serif;
   font-weight: 400;
@@ -69,4 +66,16 @@
   background-color: transparent;
   border: 2px solid black;
   border-radius: 10px;
+}
+
+.bg-paper {
+  background: url('img/paper-noise.png');
+}
+
+.bg-piano-lady {
+  background: url('img/piano-lady-shadow.jpg');
+}
+
+.bg-piano-fire {
+  background: url('img/piano-fire-shadow.jpg');
 }
